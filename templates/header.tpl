@@ -22,22 +22,21 @@
               <nav>
                   <div class="logo">
                   <p><a class="nav-link" aria-current="page" href="home">Travellopedia</a></a></p>
-                      <div class="btn_menu"><img src="images/menu.png" alt="menu"></div> 
+                      {* <div class="btn_menu"><img src="images/menu.png" alt="menu"></div> *}
                   </div>
                   <div class="menu">
-                      <ul class="navegacion">
+                      {* <ul class="navegacion"> *}
+                      <ul>
                           <li> <a class="nav-link" aria-current="page" href="home">Home</a></li>
                           <li> <a class="nav-link" aria-current="page" href="trips">Viajes</a></li>
                           <li> <a class="nav-link" aria-current="page" href="airlines">Aerolineas</a></li>
                           <li> <a class="nav-link" aria-current="page" href="search">Buscar</a></li>
                         
-                          {if ($smarty.session.isLogged )==false}
-                          <li> <a class="nav-link" aria-current="page" href="logout">Login</a></li>
-                          
-                          
+                        {if ($smarty.session.isLogged )==false}
+                            <li> <a class="nav-link" aria-current="page" href="logout">Login</a></li>
                         {else}
                             <li> <a class="nav-link" aria-current="page" href="login">Logout</a></li>
-                         {/if} 
+                        {/if} 
                          
 
                            
