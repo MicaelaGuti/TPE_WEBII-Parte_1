@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2022-10-17 06:24:11
+/* Smarty version 4.2.1, created on 2022-10-17 19:32:48
   from 'C:\xampp\htdocs\web2\travellopedia-2\templates\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_634cd8eba380e4_92375235',
+  'unifunc' => 'content_634d91c0414698_38954830',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '007c79f8a4043b46114456fd6a2f43e9d1628f0a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\web2\\travellopedia-2\\templates\\header.tpl',
-      1 => 1665980643,
+      1 => 1666027962,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_634cd8eba380e4_92375235 (Smarty_Internal_Template $_smarty_tpl) {
+function content_634d91c0414698_38954830 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
   <html lang="en">
   <head>
@@ -46,8 +46,7 @@ function content_634cd8eba380e4_92375235 (Smarty_Internal_Template $_smarty_tpl)
               <nav>
                   <div class="logo">
                   <p><a class="nav-link" aria-current="page" href="home">Travellopedia</a></a></p>
-                      <div class="btn_menu"><img src="images/menu.png" alt="menu"></div>
-                  </div>
+                                        </div>
                   <div class="menu">
                       <ul class="navegacion">
                           <li> <a class="nav-link" aria-current="page" href="home">Home</a></li>

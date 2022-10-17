@@ -22,7 +22,7 @@
               <nav>
                   <div class="logo">
                   <p><a class="nav-link" aria-current="page" href="home">Travellopedia</a></a></p>
-                      <div class="btn_menu"><img src="images/menu.png" alt="menu"></div>
+                      <div class="btn_menu"><img src="images/menu.png" alt="menu"></div> 
                   </div>
                   <div class="menu">
                       <ul class="navegacion">

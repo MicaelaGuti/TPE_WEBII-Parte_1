@@ -1,6 +1,4 @@
-/*  opciones universales, padding , margin reseteados y el border box para que los contenedores respeten su altura */
 
-/* CSS TPE WEB1 */
 
 * {
     font-family: 'Maven Pro', sans-serif;
@@ -86,7 +84,7 @@ footer { grid-area: footer; }
 .menu {
     display: flex;
     width: 100%;
-    background-color: #fff;
+    background-color: rgb(236, 232, 232);
 }
 
 ul.navegacion {
@@ -118,37 +116,15 @@ ul.navegacion li a:hover{
 
 ul.navegacion li a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
-.presentation {
+/* .contenedor {
     background-image: url(https://i.pinimg.com/564x/10/34/7c/10347cf5dfbdaeb7d8c9680dbbdfdbb0.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-} 
+    
+}  */
 
 
-
-/* Section */
-
-.content {
-    display: flex;
-    flex-direction: column;
-}
-
-.content p {
-    padding: 4%;
-    text-align: center;
-    background-color: #000;
-    color: #f5f385;
-}
-
-.thetime {
-    width: 100%;
-    background-color: rgb(240, 229, 229);
-    text-align: center;
-    font-size: 1.8em;
-}
-
- 
 
