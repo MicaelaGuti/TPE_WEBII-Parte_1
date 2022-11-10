@@ -33,9 +33,9 @@
                           <li> <a class="nav-link" aria-current="page" href="search">Buscar</a></li>
                         
                         {if ($smarty.session.isLogged )==false}
-                            <li> <a class="nav-link" aria-current="page" href="logout">Login</a></li>
+                            <li> <a class="nav-link" aria-current="page" href="login">Login</a></li>
                         {else}
-                            <li> <a class="nav-link" aria-current="page" href="login">Logout</a></li>
+                            <li> <a class="nav-link" aria-current="page" href="logout">Logout</a></li>
                         {/if} 
                          
 
